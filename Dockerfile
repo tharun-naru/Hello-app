@@ -1,3 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
 COPY target/hello-app-1.0.jar app.jar
-CMD ["java","-jar","/app.jar"]
+CMD ["java","-jar","app.jar"]
