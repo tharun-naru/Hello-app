@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: tharun1208/hello-app:18
+        image: tharun1208/hello-app:19
         ports:
         - containerPort: 8080
